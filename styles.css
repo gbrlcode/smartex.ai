@@ -58,10 +58,35 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.nav-logo h2 {
-    color: var(--primary);
-    font-size: 1.8rem;
+.nav-logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.logo-icon {
+    background: linear-gradient(135deg, #00e2cc 0%, #3dbd8d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2rem;
     font-weight: 700;
+    margin-right: 8px;
+}
+
+.logo-text {
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.logo-tagline {
+    color: #7f8c8d;
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-top: 2px;
 }
 
 .nav-menu {
